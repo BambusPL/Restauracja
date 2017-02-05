@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative; }
+
+.row {
+  padding-left: 0;
+  padding-right: 0; }
+
+header {
+  background-image: url(../img/pexels-photo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  header h1 {
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    font-size: 72px;
+    text-transform: capitalize;
+    padding-top: 230px;
+    padding-bottom: 30px; }
+  header .przyciski {
+    padding-top: 35px;
+    padding-bottom: 130px; }
+  header button {
+    width: 200px;
+    height: 60px;
+    border-radius: 0;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff; }
+  header .przycisk1 {
+    background: rgba(37, 44, 47, 0.75);
+    border: 1px solid #111;
+    border-radius: 0px;
+    margin-right: 15px; }
+  header .przycisk2 {
+    background: rgba(221, 224, 223, 0.6);
+    border: 1px solid #dde0df;
+    border-radius: 0;
+    margin-left: 15px; }
+
+#jedzenie {
+  background: url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+  background-repeat: repeat; }
+  #jedzenie .row {
+    padding-bottom: 100px; }
+  #jedzenie h2 {
+    font-family: "Roboto Slab", serif;
+    color: #cc9900;
+    font-size: 36px;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 20px; }
+  #jedzenie p {
+    font-size: 18px;
+    color: #111;
+    font-family: "Lato", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  #jedzenie .tatar {
+    margin-top: 100px;
+    margin-left: 100px; }
+
+.opinia {
+  background: url(../img/pexels-photo-216368.jpeg);
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .opinia .opis-skladniki {
+    background: rgba(34, 34, 34, 0.83);
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px; }
+  .opinia h2 {
+    font-family: "Roboto Slab", serif;
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 20px; }
+  .opinia p {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 100px; }
+
+#menu {
+  background-image: url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+  background-repeat: repeat; }
+  #menu .menu-opis {
+    padding-top: 100px; }
+    #menu .menu-opis h3 {
+      color: #cc9900;
+      font-family: "Roboto Slab", serif;
+      font-weight: 700;
+      font-size: 42px; }
+    #menu .menu-opis img {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    #menu .menu-opis .menu-podpis {
+      padding: 15px;
+      margin-bottom: 20px; }
+      #menu .menu-opis .menu-podpis h3 {
+        font-size: 24px; }
+      #menu .menu-opis .menu-podpis span {
+        float: right; }
+      #menu .menu-opis .menu-podpis hr {
+        border-top: 1px solid #cc9900;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 30px; }
+    #menu .menu-opis .promocja {
+      border: 1px solid #cc9900; }
+    #menu .menu-opis .promocja:after {
+      content: 'Promocja!';
+      background: #cc9900;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: 400; }
+  #menu button {
+    margin: 0 auto;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    background: #cc9900;
+    box-shadow: 1px 1px 5px #cc9900;
+    border-radius: 0px;
+    margin-top: 50px;
+    margin-bottom: 100px; }
+
+.opinia1 {
+  background-image: url(../img/recenzja.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .opinia1 .carousel-control-prev {
+    position: absolute;
+    left: -80px;
+    top: -110px; }
+  .opinia1 .carousel-control-next {
+    position: absolute;
+    right: -80px;
+    top: -110px; }
+  .opinia1 .carousel-inner p {
+    font-family: "Gentium Book Basic", serif;
+    font-size: 20px; }
+  .opinia1 .carousel-inner i {
+    position: absolute;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.28); }
+
+.rezerwacja {
+  background-image: url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+  background-repeat: repeat; }
+  .rezerwacja img {
+    width: 100%;
+    border: 1px solid #cc9900; }
+  .rezerwacja .zdj {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .rezerwacja .rezerwacja-tel {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+/*# sourceMappingURL=style.css.map */

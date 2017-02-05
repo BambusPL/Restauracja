@@ -1,0 +1,277 @@
+$lato: 'Lato', sans-serif;
+$book: 'Gentium Book Basic', serif;
+$roboto: 'Roboto Slab', serif;
+
+//gruboci
+
+$regular: 400;
+$bold: 700;
+$light: 300;
+
+//kolory
+$bialy: #fff;
+$zolty: #cc9900;
+$czarny: #111;
+$szary: #dde0df;
+
+@mixin transition(){
+     transition: all 1s;
+      -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+@mixin bg-pozycja(){
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@mixin bg-pozycja1(){
+    background-position: center;
+    background-attachment:scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $lato;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.row    {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header{
+    background-image: url(../img/pexels-photo.jpg);
+    @include bg-pozycja;
+    
+    h1{
+        color: $bialy;
+        font-family: $roboto;
+        font-size: 72px;
+        text-transform:capitalize;
+        padding-top: 230px;
+        padding-bottom: 30px;
+    }
+    .przyciski{
+        padding-top: 35px;
+        padding-bottom: 130px;
+    }
+    
+    button{
+        width: 200px;
+        height: 60px;
+        border-radius: 0;
+        font-family: $lato;
+        text-transform: uppercase;
+        font-weight: $regular;
+        font-size: 18px;
+        color: $bialy;
+        
+        
+    }
+    
+    .przycisk1{
+        background: rgba(37, 44, 47, 0.75);
+        border: 1px solid $czarny;
+        border-radius: 0px;
+        margin-right: 15px;
+    }
+    
+    .przycisk2{
+        background: rgba(221, 224, 223, 0.6);
+        border: 1px solid $szary;
+        border-radius: 0;
+        margin-left: 15px;
+    }
+}
+
+#jedzenie{
+    background:  url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+   
+    background-repeat: repeat;
+   
+    .row{
+        padding-bottom: 100px;
+    }
+    h2{
+        font-family: $roboto;
+        color: $zolty;
+        font-size: 36px;
+        text-transform: capitalize;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        
+    }
+    
+    p{
+        font-size: 18px;
+        color: $czarny;
+        font-family: $lato;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .tatar//jest to zdjecie
+    {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    
+}
+
+.opinia{
+    background: url(../img/pexels-photo-216368.jpeg);
+    @include bg-pozycja1;
+    
+    .opis-skladniki{
+        background: rgba(34, 34, 34, 0.83);
+        color: $bialy;
+       margin-top: 100px;
+        margin-bottom: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+     h2{
+        font-family: $roboto;
+        color: $bialy;
+        font-size: 36px;
+        text-transform: capitalize;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        
+    }
+    
+    p{
+        font-size: 18px;
+        color: $bialy;
+        font-family: $lato;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+}
+
+#menu{
+    background-image: url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+    background-repeat: repeat;
+    
+    .menu-opis{
+        padding-top: 100px;
+        h3{
+            color: $zolty;
+            font-family: $roboto;
+            font-weight: $bold;
+            font-size: 42px;
+        }
+        img{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .menu-podpis{
+            padding:15px;
+            margin-bottom: 20px;
+            h3{
+                font-size: 24px;
+                
+            }
+            span{
+                float: right;
+            }
+            hr{
+                border-top: 1px solid $zolty;
+                width: 90%;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            
+            
+        }
+        .promocja{
+                border: 1px solid $zolty;
+                
+            }
+        .promocja:after{
+            content: 'Promocja!';
+            background: $zolty;
+            padding: 10px 20px;
+            color: $bialy;
+            font-weight: $regular;
+           
+            
+        }
+    }
+    button{
+        margin: 0 auto;
+        padding: 10px 40px;
+        font-size: 25px;
+        font-family: $lato;
+        color: $bialy;
+         background: $zolty;
+       box-shadow: 1px 1px 5px $zolty;
+        border-radius: 0px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+
+
+//Recenzja
+.opinia1{
+    background-image: url(../img/recenzja.jpg);
+    @include bg-pozycja;
+        
+        .carousel-control-prev{
+            position: absolute;
+            left: -80px;
+            top: -110px;
+    }
+    
+    .carousel-control-next{
+        position: absolute;
+        right: -80px;
+        top: -110px;
+    }
+    
+    .carousel-inner p{
+          font-family: $book;
+        font-size: 20px;
+    }
+    .carousel-inner i{
+        position: absolute;
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.28);
+    }
+}
+
+//rezerwacja
+.rezerwacja{
+    background-image: url(../img/concrete_seamless/concrete_seamless/concrete_seamless.png);
+    background-repeat: repeat;
+    img{
+        width: 100%;
+        border: 1px solid $zolty;
+    }
+    .zdj{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .rezerwacja-tel{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
