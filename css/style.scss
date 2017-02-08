@@ -1,3 +1,5 @@
+
+
 $lato: 'Lato', sans-serif;
 $book: 'Gentium Book Basic', serif;
 $roboto: 'Roboto Slab', serif;
@@ -306,6 +308,15 @@ header{
     .rezerwacja-tel{
         padding-top: 100px;
         padding-bottom: 100px;
+         a{
+        text-decoration: none;
+        color: $zolty;
+             font-size: 30px;
+             i{
+                 font-size: 36px;
+                 padding-right: 20px;
+             }
+    }
     }
     
     hr{
@@ -328,18 +339,7 @@ header{
     }
     
     
-    span{
-        color: $zolty;
-     
-        padding-top: 30px;
-        font-size: 30px;
-        i{
-            font-size: 46px;
-            margin-right: 10px;
-        }
-       
-        
-    }
+   
 }
 
 
@@ -387,6 +387,10 @@ footer{
         }
       
     }
+
+
+
+@import "aktualnosci.scss";
     
     
 

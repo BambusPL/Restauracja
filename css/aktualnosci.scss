@@ -1,0 +1,57 @@
+
+
+.aktualnosci{
+    
+       h1{
+        font-family: $roboto;
+        color: $zolty;
+        font-size: 50px;
+        text-transform: capitalize;
+        padding-top: 100px;
+        padding-bottom: 20px;
+        
+    }
+    
+    h2{
+        font-family: $lato;
+       
+        color: $czarny;
+        font-size: 36px;
+        padding: 35px 0px;
+    }
+    
+    p{
+        font-size: 18px;
+        color: $czarny;
+        font-family: $lato;
+        padding-top: 30px;
+       
+    }
+    
+    hr{
+        border-top: 1px solid $zolty;
+    }
+    
+        button{
+        margin: 0 auto;
+        padding: 10px 40px;
+        font-size: 20px;
+        font-family: $lato;
+        color: $bialy;
+         background: $zolty;
+       box-shadow: 1px 1px 5px $zolty;
+        border-radius: 0px;
+        margin-top: 10px;
+       
+        @include transition;
+        &:hover{
+            background: $bialy;
+            color: $zolty;
+            cursor: pointer;
+        }
+    }
+    span{
+        color: $szary;
+        font-size: 16px; 
+    }
+}

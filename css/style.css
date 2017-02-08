@@ -204,6 +204,13 @@ header {
   .rezerwacja .rezerwacja-tel {
     padding-top: 100px;
     padding-bottom: 100px; }
+    .rezerwacja .rezerwacja-tel a {
+      text-decoration: none;
+      color: #cc9900;
+      font-size: 30px; }
+      .rezerwacja .rezerwacja-tel a i {
+        font-size: 36px;
+        padding-right: 20px; }
   .rezerwacja hr {
     border-top: 1px solid #cc9900;
     width: 80%;
@@ -217,13 +224,6 @@ header {
     text-transform: capitalize;
     padding-top: 100px;
     padding-bottom: 20px; }
-  .rezerwacja span {
-    color: #cc9900;
-    padding-top: 30px;
-    font-size: 30px; }
-    .rezerwacja span i {
-      font-size: 46px;
-      margin-right: 10px; }
 
 footer {
   background-image: url(../img/footer.jpeg);
@@ -254,5 +254,46 @@ footer {
       font-size: 24px; }
       footer ul li a:hover {
         color: #cc9900; }
+
+.aktualnosci h1 {
+  font-family: "Roboto Slab", serif;
+  color: #cc9900;
+  font-size: 50px;
+  text-transform: capitalize;
+  padding-top: 100px;
+  padding-bottom: 20px; }
+.aktualnosci h2 {
+  font-family: "Lato", sans-serif;
+  color: #111;
+  font-size: 36px;
+  padding: 35px 0px; }
+.aktualnosci p {
+  font-size: 18px;
+  color: #111;
+  font-family: "Lato", sans-serif;
+  padding-top: 30px; }
+.aktualnosci hr {
+  border-top: 1px solid #cc9900; }
+.aktualnosci button {
+  margin: 0 auto;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #cc9900;
+  box-shadow: 1px 1px 5px #cc9900;
+  border-radius: 0px;
+  margin-top: 10px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s; }
+  .aktualnosci button:hover {
+    background: #fff;
+    color: #cc9900;
+    cursor: pointer; }
+.aktualnosci span {
+  color: #dde0df;
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */
